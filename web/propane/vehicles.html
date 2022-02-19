@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vehicles | Propane Online</title>
+		<meta lang="en" charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="logo">Vehicles</div>
+					<ul class="nav-links">
+						<div class="menu">
+							<li><a href="dashboard.html">Dashboard</a></li>
+							<li><a href="operations.html">Operations</a></li>
+							<li><a href="sales.html">Sales</a></li>
+							<li><a href="market.html">Market</a></li>
+							<li><a class="current" href="vehicles.html">Vehicles</a></li>
+							<li><a href="registrations.html">Registrations</a></li>
+						</div>
+					</ul>
+				</nav>
+		</header>
+			<h3>Service Vehicles</h3>
+				<ul id="service_vehicles" class="service_vehicles"><script>loadServiceVehicles()</script></ul>
+			<h3>Transportation Vehicles</h3>
+				<ul id="transportation_vehicles" class="transportation_vehicles"><script>loadTransportationVehicles()</script></ul>
+			<h3>Tanker Vehicles</h3>
+				<ul id="tanker_vehicles" class="tanker_vehicles"><script>loadTankerVehicles()</script></ul>
+		<footer></footer>
+	</body>
+</html>

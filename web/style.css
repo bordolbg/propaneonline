@@ -1,0 +1,53 @@
+header {
+	background-color: lightgray;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	background-color: lightgray;
+	padding:10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.index_buttons {
+	text-align: right;
+}
+
+.h1_title {
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_button {
+	align-items: right;
+	width: 230px;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup_button {
+	align-items: right;
+	width: 230px;
+	height: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq {
+	width: 600px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_form_element {
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}

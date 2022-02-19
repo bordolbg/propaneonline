@@ -1,0 +1,13 @@
+.market-portal {
+    height: 100vh;
+    width: 100%
+}
+
+.market-portal-navbar {
+    height: 20vh;
+    background-color: lightblue;
+}
+
+.market-portal-bottom {
+    height: 80vh;
+}

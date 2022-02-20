@@ -4,10 +4,20 @@
 }
 
 .market-portal-navbar {
-    height: 20vh;
+    height: 5vh;
     background-color: lightblue;
+    display: flex;
+    flex-direction: row;
 }
 
 .market-portal-bottom {
-    height: 80vh;
+    height: 95vh;
+}
+
+.market-portal-button {
+    width: 23%;
+}
+
+.market-button-back {
+    width: 8% !important;
 }

@@ -30,7 +30,10 @@ header {
 
 footer {
   height: 10vh;
-  align-content: center;
+}
+
+footer > p {
+  position: center;
 }
 
 a {

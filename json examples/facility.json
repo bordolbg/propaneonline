@@ -1,0 +1,18 @@
+{
+    "username": "brodycarty",
+    "password": "12345678",
+    "facilities": [
+        {
+            "number": 1,
+            "type": "store",
+            "name": "store1",
+            "isCameraEquipped": true
+        },
+        {
+            "number": 2,
+            "type": "warehouse",
+            "name": "warehouse2",
+            "isCameraEquipped": false
+        }
+    ]
+}

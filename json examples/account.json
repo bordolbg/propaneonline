@@ -1,0 +1,11 @@
+{
+    "username": "brodycarty",
+    "password": "12345678",
+    "isPremium": false,
+    "accountCode": {
+        "camera": true,
+        "property": true,
+        "vehicle": true,
+        "registration": true
+    }
+}

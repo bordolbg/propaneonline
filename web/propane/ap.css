@@ -1,0 +1,56 @@
+.ap-flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  height: 90vh;
+}
+
+.ap-left {
+  width: 30%;
+}
+
+.ap-right {
+  width: 70%;
+}
+
+.ap-border {
+  padding: 25px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: lightgray;
+}
+
+.ap-camera-title-label {
+  height: 5vh;
+  vertical-align: middle;
+}
+
+.ap-title {
+  height: 5vh;
+}
+
+.ap-cameras-left {
+  width: 15%;
+}
+
+.ap-cameras-right {
+  width: 85%;
+}
+
+.ap-flex-container-two {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 90vh;
+}
+
+.ap-cameras-options {
+  height: 10vh;
+}
+
+.ap-cameras {
+  display: grid;
+  height: 80vh;
+}

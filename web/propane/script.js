@@ -16,7 +16,3 @@ function loadTransportationVehicles() {
 function loadTankerVehicles() {
 	var tankerVehiclesUl = document.getElementById("tanker_vehicles");
 }
-
-function loadDashboard() {
-	break;
-}

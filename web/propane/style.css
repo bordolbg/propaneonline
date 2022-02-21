@@ -3,8 +3,8 @@
 }
 
 .current {
-	font-style: italic;
-	color: lightgray !important;
+  font-style: italic;
+  color: lightgray !important;
 }
 
 .dashboard_button {
@@ -29,7 +29,7 @@ header {
 }
 
 footer {
-  height: 10vh;
+  height: 5vh;
 }
 
 footer > p {
@@ -58,11 +58,11 @@ body {
   padding: 20px;
   background-color: teal;
   color: #fff;
-  height: 15vh;
+  height: 5vh;
 }
 
-.navbar>.current {
-	color: lightgray;
+.navbar > .current {
+  color: lightgray;
 }
 
 .nav-links a {
@@ -76,7 +76,7 @@ body {
 .menu {
   display: flex;
   gap: 1em;
-  font-size: 18px;
+  font-size: 1rem;
 }
 .menu li:hover {
   background-color: #4c9e9e;
@@ -87,82 +87,67 @@ body {
   padding: 5px 14px;
 }
 
-/* AP Flexbox */
-.ap-flexbox-container {
-  display: flex;
-  flex-direction: row;
-  height: 75vh;
-}
-
-.ap-left {
-  height: 100vh;
-}
-
-.ap-right {
-  height: 100vh;
-}
-
 /* Operations Flexbox */
 .op-flexbox-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	/* gap: 20px; */
-	background-color: whitesmoke;
-	/* padding: 20px; */
-	width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  background-color: whitesmoke;
+  /* padding: 20px; */
+  width: 100%;
 }
 
 .op-flexbox-container-dashboard {
-	width: 100%;
+  width: 100%;
 }
 
 .op-flexbox-side {
-	display: flex;
-	flex-direction: column;
-	height: 75vh;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
 }
 
 .op-flexbox-left {
-	width: 20%;
+  width: 20%;
 }
 
 .op-flexbox-right {
-	width: 80%;
+  width: 80%;
 }
 
 .op-flexbox-item {
-	padding: 25px;
-	border-width: 5px;
-	border-style: solid;
-	border-radius: 0.5rem;
-	border-color: lightgray;
+  padding: 25px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: lightgray;
 }
 
 .op-flexbox-active-orders {
-	height: 50vh;
+  height: 50vh;
 }
 
 .op-flexbox-orders {
-	height: 50vh;
+  height: 50vh;
 }
 
 .op-flexbox-selected {
-	height: 80vh;
+  height: 80vh;
 }
 
 .op-flexbox-vehicles {
-	height: 20vh;
+  height: 20vh;
 }
 
 /* Sales Flexboxes */
 
 .sl-flexbox-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	background-color: whitesmoke;
-	width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  width: 100%;
 }
 
 .sl-flexbox-side {
@@ -170,7 +155,7 @@ body {
   border-style: solid;
   border-radius: 0.5rem;
   border-color: lightgray;
-  height: 75vh;
+  height: 90vh;
 }
 
 .sl-left-flexbox {
@@ -188,7 +173,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: whitesmoke;
-  height: 75vh;
+  height: 90vh;
 }
 
 .mr-bottom-container {
@@ -210,10 +195,10 @@ body {
 
 .mr-left-flexbox {
   width: 25%;
-  height: 57vh;
+  height: 67vh;
 }
 
 .mr-right-flexbox {
   width: 75%;
-  height: 57vh;
+  height: 67vh;
 }

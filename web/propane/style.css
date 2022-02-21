@@ -87,6 +87,21 @@ body {
   padding: 5px 14px;
 }
 
+/* AP Flexbox */
+.ap-flexbox-container {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+}
+
+.ap-left {
+  height: 100vh;
+}
+
+.ap-right {
+  height: 100vh;
+}
+
 /* Operations Flexbox */
 .op-flexbox-container {
 	display: flex;

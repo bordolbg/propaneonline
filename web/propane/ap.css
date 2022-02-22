@@ -22,6 +22,15 @@
   border-color: lightgray;
 }
 
+.ap-border-two {
+	padding: 2px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: lightgray;
+}
+
+
 .ap-camera-title-label {
   height: 5vh;
   vertical-align: middle;
@@ -51,11 +60,33 @@
 }
 
 .ap-cameras {
-  display: grid;
-  grid-row: auto auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 80vh;
+  width: 100%;
 }
+
+.ap-cameras-display-left {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+.ap-cameras-display-right {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
 .ap-camera {
-  height: 50vh;
-  width: 50%;
+  height: 40vh;
+}
+
+.ap-camera-canvas {
+	height: 100%;
+	width: 100%;
+	background-color: gray;
 }

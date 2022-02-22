@@ -27,8 +27,72 @@ ctx4.font = "bold 12px Arial";
 ctx4.fillText("Camera 4", 20, 20);
 ctx4.fillStyle = "black";
 
-let myCamera1 = new Camera();
+var selected = null;
 
-myCamera1.location = "BreakRoom";
+function clickApCameraOne() {
 
-console.log(myCamera1.location);
+    if(selected == "one") {
+        selected = null;
+        document.getElementById("cameraone").style.borderColor = "lightgray";
+    } else {
+        selected = "one";
+
+        document.getElementById("cameraone").style.borderColor = "cornflowerblue";
+        document.getElementById("cameratwo").style.borderColor = "lightgray";
+        document.getElementById("camerathree").style.borderColor = "lightgray";
+        document.getElementById("camerafour").style.borderColor = "lightgray";
+    }
+
+    
+}
+
+function clickApCameraTwo() {
+
+    if(selected == "two") {
+        selected = null;
+        document.getElementById("cameratwo").style.borderColor = "lightgray";
+    } else {
+        selected = "two";
+
+        document.getElementById("cameraone").style.borderColor = "lightgray";
+        document.getElementById("cameratwo").style.borderColor = "cornflowerblue";
+        document.getElementById("camerathree").style.borderColor = "lightgray";
+        document.getElementById("camerafour").style.borderColor = "lightgray";
+    }
+
+    
+}
+
+function clickApCameraThree() {
+
+    if(selected == "three") {
+        selected = null;
+        document.getElementById("camerathree").style.borderColor = "lightgray";
+    } else {
+        selected = "three";
+    
+        document.getElementById("cameraone").style.borderColor = "lightgray";
+        document.getElementById("cameratwo").style.borderColor = "lightgray";
+        document.getElementById("camerathree").style.borderColor = "cornflowerblue";
+        document.getElementById("camerafour").style.borderColor = "lightgray";
+    }
+
+    
+}
+
+function clickApCameraFour() {
+
+    if(selected == "four") {
+        selected = null;
+        document.getElementById("camerafour").style.borderColor = "lightgray";
+    } else {
+        selected = "four";
+
+        document.getElementById("cameraone").style.borderColor = "lightgray";
+        document.getElementById("cameratwo").style.borderColor = "lightgray";
+        document.getElementById("camerathree").style.borderColor = "lightgray";
+        document.getElementById("camerafour").style.borderColor = "cornflowerblue";
+    }
+
+    
+}

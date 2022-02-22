@@ -1,21 +1,16 @@
 {
-    "username": "brodycarty",
-    "facility": {
-        "name": "store1",
-        "type": "store",
-        "cameras": [
-            {
-                "name": "Register 1",
-                "location": "POS1",
-                "isLocked": true,
-                "zoom": 100
-            },
-            {
-                "name": "Register 2",
-                "location": "POS2",
-                "isLocked": true,
-                "zoom": 100
-            }
-        ]
-    }
+    "cameras": [
+        {
+            "name": "Register 1",
+            "location": "POS1",
+            "isLocked": true,
+            "zoom": 100
+        },
+        {
+            "name": "Register 2",
+            "location": "POS2",
+            "isLocked": true,
+            "zoom": 100
+        }
+     ]
 }

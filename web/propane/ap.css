@@ -52,5 +52,10 @@
 
 .ap-cameras {
   display: grid;
+  grid-row: auto auto;
   height: 80vh;
+}
+.ap-camera {
+  height: 50vh;
+  width: 50%;
 }

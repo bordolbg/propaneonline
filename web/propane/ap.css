@@ -23,13 +23,12 @@
 }
 
 .ap-border-two {
-	padding: 2px;
+  padding: 2px;
   border-width: 5px;
   border-style: solid;
   border-radius: 0.5rem;
   border-color: lightgray;
 }
-
 
 .ap-camera-title-label {
   height: 5vh;
@@ -59,34 +58,50 @@
   height: 10vh;
 }
 
-.ap-cameras {
+.ap-cameras-live {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   height: 80vh;
   width: 100%;
 }
 
-.ap-cameras-display-left {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	width: 50%;
+.ap-cameras-screenshots {
+  height: 80vh;
+  width: 100%;
 }
 
-.ap-cameras-display-right {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	width: 50%;
+.ap-cameras-display-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ap-cameras-display-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .ap-camera {
   height: 40vh;
+  width: 50%;
 }
 
 .ap-camera-canvas {
-	height: 100%;
-	width: 100%;
-	background-color: gray;
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+.camera-menu-select {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list-item {
+  height: 3.7vh;
+  width: 20%;
 }

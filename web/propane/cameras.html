@@ -29,9 +29,14 @@
 				<ul class="camera-list" id="camera-list"></ul>
 			</div>
             <div class="ap-cameras-right">
-                <div class="ap-cameras-options ap-border"></div>
-                <div class="ap-cameras">
-					<div class="ap-cameras-display-left">
+                <div class="ap-cameras-options ap-border">
+					<div class="camera-menu-select">
+						<button class="menu-list-item">Live</button>
+						<button class="menu-list-item">Screenshots</button>
+					</div>
+				</div>
+                <div class="ap-cameras-live">
+					<div class="ap-cameras-display-top">
 						<div class="ap-camera ap-border-two" id="cameraone">
 							<canvas class="ap-camera-one ap-camera-canvas" id="ap-camera-one" onclick="clickApCameraOne()"></canvas>
 						</div>
@@ -39,7 +44,7 @@
 							<canvas class="ap-camera-two ap-camera-canvas" id="ap-camera-two" onclick="clickApCameraTwo()"></canvas>
 						</div>
 					</div>
-					<div class="ap-cameras-display-right">
+					<div class="ap-cameras-display-bottom">
 						<div class="ap-camera ap-border-two" id="camerathree">
 							<canvas class="ap-camera-three ap-camera-canvas" id="ap-camera-three" onclick="clickApCameraThree()"></canvas>
 						</div>
@@ -47,6 +52,9 @@
 							<canvas class="ap-camera-four ap-camera-canvas" id="ap-camera-four" onclick="clickApCameraFour()"></canvas>
 						</div>
 					</div>
+				</div>
+				<div class="ap-cameras-screenshots">
+
 				</div>
             </div>
         </div>

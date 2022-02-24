@@ -29,13 +29,13 @@
 				<ul class="camera-list" id="camera-list"></ul>
 			</div>
             <div class="ap-cameras-right">
-                <div class="ap-cameras-options ap-border">
+                <div class="ap-cameras-options">
 					<div class="camera-menu-select">
-						<button class="menu-list-item">Live</button>
-						<button class="menu-list-item">Screenshots</button>
+						<button class="menu-list-item tablinks" onclick="openTab(event, 'ap-live')">Live</button>
+						<button class="menu-list-item tablink" onclick="openTab(event, 'ap-screenshots')">Screenshots</button>
 					</div>
 				</div>
-                <div class="ap-cameras-live">
+                <div id="ap-live" class="tabcontent ap-cameras-live">
 					<div class="ap-cameras-display-top">
 						<div class="ap-camera ap-border-two" id="cameraone">
 							<canvas class="ap-camera-one ap-camera-canvas" id="ap-camera-one" onclick="clickApCameraOne()"></canvas>
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="ap-cameras-screenshots">
+				<div id="ap-screenshots" class="tabcontent ap-cameras-screenshots">
 
 				</div>
             </div>

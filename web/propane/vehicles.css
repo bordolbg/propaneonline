@@ -1,0 +1,24 @@
+.vehicles-body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: whitesmoke;
+}
+
+.vehicles-left {
+	width: 25%;
+	height: 90vh;
+}
+
+.vehicles-right {
+	width: 75%;
+	height: 90vh;
+}
+
+.vh-border {
+  padding: 25px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: lightgray;
+}

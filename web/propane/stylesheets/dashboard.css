@@ -1,0 +1,9 @@
+.dash-flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dash-flexbox-item {
+    height: 20vh;
+}

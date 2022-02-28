@@ -4,7 +4,6 @@ var camera3 = document.getElementById("ap-camera-three");
 var camera4 = document.getElementById("ap-camera-four");
 
 var canvasColor = "gray";
-
 var ctx1 = camera1.getContext("2d");
 ctx1.font = "bold 12px Arial";
 ctx1.fillText("Camera 1", 20, 20);

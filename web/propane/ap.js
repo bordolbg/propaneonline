@@ -1,3 +1,5 @@
+// Declare Camera Elements
+
 var camera1 = document.getElementById("ap-camera-one");
 var camera2 = document.getElementById("ap-camera-two");
 var camera3 = document.getElementById("ap-camera-three");
